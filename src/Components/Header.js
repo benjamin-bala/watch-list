@@ -7,6 +7,7 @@ import TrendingMovies from './CardList/TrendingMovies';
 import TrendingSeries from './CardList/TrendingSeries';
 import Trailers from './Trailers';
 import Menu from './Menu';
+import Footer from './Footer';
 
 
 function Header (){
@@ -18,6 +19,7 @@ function Header (){
                 <TrendingMovies />
                 <Trailers />
                 <TrendingSeries />
+                <Footer />
             </div>
         );
 }
