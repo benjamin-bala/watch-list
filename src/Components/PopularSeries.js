@@ -9,7 +9,6 @@ import {TiStarFullOutline} from 'react-icons/ti';
 
 function Popular (){
     const {loading, items, error} = UseData(`https://api.themoviedb.org/3/discover/tv?api_key=07a87afa9594ed4d43e740c14f0f5651&language=en-US&sort_by=popularity.desc`);
-    console.log(items)
 
     if(loading){
         return <LoadingContent />

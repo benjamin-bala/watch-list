@@ -10,11 +10,9 @@ function Moviedetails ({match}){
     let checkparams = match.params.name;
     const {loading, items, error} = FetchMovies(`https://api.themoviedb.org/3/movie/${checkparams}?api_key=07a87afa9594ed4d43e740c14f0f5651`);
     
-    console.log(match)
     let history = useHistory();
 
     let item = items;
-    console.log(items)
     if(loading){
         return (
            <LoadingContent />

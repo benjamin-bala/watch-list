@@ -7,8 +7,6 @@ import ErrorLoading from './ErrorLoading';
 import {TiStarFullOutline} from 'react-icons/ti';
 function TrendingMoviesToday (){
     const {loading, items, error} = UseData("https://api.themoviedb.org/3/trending/movie/day?api_key=07a87afa9594ed4d43e740c14f0f5651");
-    console.log(items)
-
     if(loading){ return <LoadingContent />}
     else if(error){return <ErrorLoading />}
     else {

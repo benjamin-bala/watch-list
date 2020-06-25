@@ -17,10 +17,10 @@ function Popular (){
         document.getElementById("tab1").classList.remove("active");
         document.getElementById("tab2").classList.add("active");
     }
-    const addclass = () => {
-        document.getElementById("tab1").classList.add("active");
-        document.getElementById("tab2").classList.remove("active");
-    }
+    // const addclass = () => {
+    //     document.getElementById("tab1").classList.add("active");
+    //     document.getElementById("tab2").classList.remove("active");
+    // }
     return(
         <div className="cardheader bg-light-brown">
             <div className="category">

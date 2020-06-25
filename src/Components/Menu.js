@@ -10,7 +10,7 @@ function Menu(){
             <img className="logo" src="https://res.cloudinary.com/benjee/image/upload/v1590892291/logo_1_hikhwx.svg" alt="logo" />
             <div className="find">
                 <ul>
-                   <Link to="/search"> <li class="search">Search <FaSearch size={15}/></li> </Link>
+                   <Link to="/search"> <li className="search">Search <FaSearch size={15}/></li> </Link>
                 </ul>
             </div>
         </div>
